@@ -8,7 +8,7 @@ import android.widget.EditText;
 
 public class MyActivity extends AppCompatActivity {
     public void BlogPost(View view) {
-        EditText text = findViewById(R.id.title);
+        EditText text = findViewById(R.id.string_title);
         String a = text.getText().toString();
         EditText text1 = findViewById(R.id.blog);
         String b = text1.getText().toString();
